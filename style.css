@@ -157,6 +157,10 @@ html, body{
     margin-left: 10px;
     margin-top: 10px;
 }
+.ingredient-item:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
 .ustensile-item {
     width: 195px;
     height: 37px;
