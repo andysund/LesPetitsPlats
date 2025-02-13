@@ -1,0 +1,332 @@
+html, body{ 
+    margin: 0 auto;
+    padding: 0;
+    min-height:100%;
+    overflow-x: hidden;
+    max-width: 1440px;
+    width: 100%;
+
+}
+.hero-container {
+    width: 1440px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+
+}
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    position: relative;
+}
+.img-fluid-hero {
+    width: 100%;
+    height: 667px;
+    object-fit: cover;
+}
+.logo-petitPlat {
+    display:flex;
+    gap:5px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 43px;
+    right: 1198px;
+
+  }
+  .titre {
+    width:148px;
+    height:25px;
+  }
+  .full-logo{
+    display:flex;
+    position:relative;
+    top: -3px;
+  } 
+  .logo{
+    width:23px;
+    height:22px;
+    background-color:white;
+    border-radius:50px;
+    margin-top:5px;
+    position:absolute;
+    z-index:1;
+    left: -23px;
+  }
+  .logo-inner-circle {
+    width:17px;
+    height:16px;
+    border:2px solid black;
+    
+    border-radius:50px;
+    margin-top:8px;
+    margin-left:1px;
+    position:absolute;
+    z-index:2;
+    left: -21px;
+    
+  }
+
+.h1 {
+    position:absolute;
+    z-index: -1;
+}
+.search-bar {
+    position: absolute;
+    z-index: -1;
+}
+.searchIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-search {
+    height: 49px;
+    width: 59px;
+    position: absolute;
+    right: 300px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    left:1077px;
+    background-color: transparent;
+}
+.magnifying {
+    display: flex;
+    height: 44px;
+    width: 47px;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+}
+.fa-magnifying-glass{
+    color: white;
+    margin-top: 15px;
+    width: 47px;
+    height: 30px;
+}
+.selection {
+    gap:65px;
+    display: flex;
+    margin-left: 80px;
+   
+}
+.bg-recipes {
+    background-color: #EDEDED;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.custom-dropdown{
+    border-radius: 11px;
+    border: none;
+    display: flex;
+    width: 195px;
+    height: 56px;
+}
+.dropdown-size {
+    height: 56px;
+    width: 195px;
+    color: black;
+    background-color: #ffffff;
+}
+.dropdown-menu {
+    height: 259px;
+    overflow: scroll;
+}
+.dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+
+}
+.dropdownSearchInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dropdownSearchField {
+    width: 163px;
+    height: 36px;
+    border-radius: 0px;
+}
+.ingredient-item {
+    width: 195px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.ustensile-item {
+    width: 195px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.appliance-item {
+    width: 195px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+.number-recpies {
+    color: black;
+    font: 400;
+    font-family: 'Anton';
+    padding-top: 50px;
+    font-size: 21px;
+    display: flex;
+    margin-left: 410px;
+    margin-right: 50px;
+}
+.recipes-cards-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* ajuste l'espace entre les cards */
+    width: 100%;
+    background-color: #EDEDED;
+
+}
+.recipe-time-img {
+    position: relative; /* La référence pour le positionnement */
+    display: inline-block;
+    width: 100%; /* S'assurer que le conteneur prend la taille de l'image */
+}
+
+.recipe-img {
+    width: 100%;
+    display: block; /* Supprime l'espace sous l'image */
+}
+
+.cooking-time {
+    position: absolute; /* Permet de placer cette div par rapport au parent */
+    top: 10px; /* Distance depuis le haut */
+    right: 10px; /* Distance depuis la droite */
+    background-color: yellow; /* Fond semi-transparent */
+    color: black; /* Texte noir */
+    padding: 5px 10px;
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    height: 26px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#cards {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* ajuste l'espace entre les cards */
+    width: 100%;
+    background-color: #EDEDED;}
+
+.recipes-cards {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 731px;
+    margin-left: 78px;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    background-color: white;
+    border-radius: 21px;
+    box-shadow: 0px 4px 34px 30px rgba(0, 0, 0, 0.1);
+
+}
+.card{
+    height: 731px;
+    width: 380px;
+}
+.recipe-img{
+    height: 253px;
+    width: 380px;
+    object-fit:cover;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+.card-title {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Anton';
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+.recipe-subtitle{
+    margin-left:25px ;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #7A7A7A;
+    width: 60px;
+    height: 16px;
+    margin-bottom: 0;
+}
+.recipe-text{
+    display: flex;
+    width: 330px;
+    height: 102px;
+    margin-left: 25px;
+    overflow: hidden;
+    margin-top: 15px;
+
+
+}
+.recipe-subtitle-ingredient{
+    margin-left:25px ;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #7A7A7A;
+    width: 60px;
+    height: 16px;
+    margin-bottom: 0;
+}
+.ingredients {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.all-ingredients{
+    display: flex;
+    padding:10px;
+    height:190px;
+    width: 330px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+    column-gap: 80px;
+
+}
+
+
+.ingredient-container-div{
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+.ingredient-name-div{
+    height: 19px;
+  
+
+}
+.ingredient-info-div {
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 400;
+    color: #7A7A7A;
+
+
+}
+.ingredient-name {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope';
+}
+

@@ -1,0 +1,41 @@
+<div class="logo-petitPlat">
+  <p class="titre"> LES PETITS PLATS</p>
+  <div class="full-logo">
+  <div class="logo"></div>
+  <div class="logo-inner-circle"></div>
+  </div> 
+</div>
+
+.logo-petitPlat {
+  display:flex;
+  gap:5px;
+}
+.titre {
+  width:180px;
+  height:25px;
+}
+.full-logo{
+  display:flex;
+  position:relative;
+} 
+.logo{
+  width:23px;
+  height:22px;
+  background-color:black;
+  border-radius:50px;
+  margin-top:13px;
+  position:absolute;
+  z-index:1;
+}
+.logo-inner-circle {
+  width:16px;
+  height:16px;
+  border:2px solid white;
+  
+  border-radius:50px;
+  margin-top:14px;
+  margin-left:1px;
+  position:absolute;
+  z-index:2;
+  
+}
